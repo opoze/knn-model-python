@@ -55,7 +55,7 @@ pip3 install  -r requirements.txt
 ![Application Flowchart](https://raw.githubusercontent.com/opoze/knn-model-python/main/resources/application_flow_chart.png)
 
 **Application Class Diagram**
-Application class diagram [XML](https://github.com/opoze/knn-model-python/blob/main/resources/class_diagrams.drawio) in resource folder.
+Application class diagram [XML](https://github.com/opoze/knn-model-python/blob/main/resources/class_diagram.drawio) in resource folder.
 
 ![Application Class Diagram](https://raw.githubusercontent.com/opoze/knn-model-python/main/resources/class_diagram.png)
 
