@@ -10,7 +10,7 @@ The README is reduced because of the pre shared presentation slides and Latex ar
 KNN is a non-parametric, lazy learning algorithm. It stores all instances correspond to training data points in n-dimensional space. To label a new point, it looks at the labeled points closest to that new point also known as its nearest neighbors.
 It is based on the idea that the observations closest to a given data point are the most "similar" observations in a data set, and we can therefore classify unforeseen points based on the values of the closest existing points
 
-### What about the Vital Signal format
+### Data
 
 **Data model inside of application**
 ```json
@@ -22,8 +22,7 @@ It is based on the idea that the observations closest to a given data point are 
 }
 ```
 
-
-**Labelling threshold:**
+**Data Labelling and threshold:**
 Labelling: label **1** for unhealty and **0** for healthy
 Healthy (0) classification. In according with literature review and medical accepted for healthy range.
 
@@ -31,21 +30,29 @@ Healthy (0) classification. In according with literature review and medical acce
 - Heart Rate: 60 to 100
 - SpO2: 95 or higher
 
-### How to run
+**Database:**
+SQL script for the project base materialized view is under the resources folder.
+Used with - MIMICIII - https://physionet.org/content/mimiciii/1.4/
+
+![alt text](https://raw.githubusercontent.com/opoze/knn-model-python/main/resources/vital_sign_sample.png)
+
+
+### Application
+
+**How to run**
 python3 main.py
 
-### Project Dependencies
+**Project Dependencies**
 pip3 install  -r requirements.txt
 
-### Database
-SQL script for the project base materialized view is under the resources folder.
-
-Used with - MIMICIII - https://physionet.org/content/mimiciii/1.4/
+**Application Flowchart**
+![alt text](https://raw.githubusercontent.com/opoze/knn-model-python/main/resources/application_flow_chart.png)
 
 
 ### Results
 
 **Scatter Plot**
+![alt text](https://raw.githubusercontent.com/opoze/knn-model-python/main/resources/scatter_plot_sample.png)
 
 **Confusion Matrix**
-
+![alt text](https://raw.githubusercontent.com/opoze/knn-model-python/main/resources/confusion_matriz_sample.png)
