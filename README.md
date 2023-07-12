@@ -34,7 +34,7 @@ Healthy (0) classification. In according with literature review and medical acce
 SQL script for the project base materialized view is under the resources folder.
 Used with - MIMICIII - https://physionet.org/content/mimiciii/1.4/
 
-![alt text](https://raw.githubusercontent.com/opoze/knn-model-python/main/resources/vital_sign_sample.png)
+![Materialized View  Head](https://raw.githubusercontent.com/opoze/knn-model-python/main/resources/vital_sign_sample.png)
 
 
 ### Application
@@ -46,13 +46,15 @@ python3 main.py
 pip3 install  -r requirements.txt
 
 **Application Flowchart**
-![alt text](https://raw.githubusercontent.com/opoze/knn-model-python/main/resources/application_flow_chart.png)
+![Application Flowchart](https://raw.githubusercontent.com/opoze/knn-model-python/main/resources/application_flow_chart.png)
 
 
 ### Results
 
 **Scatter Plot**
-![alt text](https://raw.githubusercontent.com/opoze/knn-model-python/main/resources/scatter_plot_sample.png)
+
+![Scatter Plot](https://raw.githubusercontent.com/opoze/knn-model-python/main/resources/scatter_plot_sample.png)
 
 **Confusion Matrix**
-![alt text](https://raw.githubusercontent.com/opoze/knn-model-python/main/resources/confusion_matriz_sample.png)
+
+![Confusion Matrix](https://raw.githubusercontent.com/opoze/knn-model-python/main/resources/confusion_matriz_sample.png)
