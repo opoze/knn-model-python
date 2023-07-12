@@ -31,7 +31,8 @@ Healthy (0) classification. In according with literature review and medical acce
 - SpO2: 95 or higher
 
 **Database:**
-SQL script for the project base materialized view is under the resources folder.
+[SQL](https://github.com/opoze/knn-model-python/blob/main/resources/vital_signs_materialized_view_create.sql) script for the project base materialized view is under the resources folder. 
+
 Used with - MIMICIII - https://physionet.org/content/mimiciii/1.4/
 
 ![Materialized View  Head](https://raw.githubusercontent.com/opoze/knn-model-python/main/resources/vital_sign_sample.png)
@@ -40,14 +41,23 @@ Used with - MIMICIII - https://physionet.org/content/mimiciii/1.4/
 ### Application
 
 **How to run**
+```
 python3 main.py
+```
 
 **Project Dependencies**
+```
 pip3 install  -r requirements.txt
+```
 
 **Application Flowchart**
+
 ![Application Flowchart](https://raw.githubusercontent.com/opoze/knn-model-python/main/resources/application_flow_chart.png)
 
+**Application Class Diagram**
+Application class diagram [XML](https://github.com/opoze/knn-model-python/blob/main/resources/class_diagrams.drawio) in resource folder.
+
+![Application Class Diagram](https://raw.githubusercontent.com/opoze/knn-model-python/main/resources/class_diagram.png)
 
 ### Results
 

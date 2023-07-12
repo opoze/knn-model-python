@@ -17,11 +17,11 @@ class ModelPersist(ABC):
         return f'{self.file_location}{self.file_name}'   
 
     @abstractmethod
-    def save_model(self, data: any, file_name: str) -> bool : pass
+    def save_model(self, model: any) -> bool : pass
 
     @abstractmethod
-    def load_model(self, file_name: str) -> any: pass
+    def load_model(self) -> any: pass
 
     @abstractmethod
-    def model_exists(self, file_name: str) -> bool: pass
+    def model_exists(self) -> bool: pass
 
